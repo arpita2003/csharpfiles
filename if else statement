@@ -1,0 +1,24 @@
+using System;
+namespace CSharp_Shell
+{
+publicclassProgram
+    {
+publicstaticvoid Main()
+        {
+int age;
+Console.WriteLine("Enter age of candidate");
+            age = Convert.ToInt32(Console.ReadLine());
+
+if (age >= 18)
+            {
+Console.WriteLine("Eligible for vote");
+            }
+else
+            {
+Console.WriteLine("Not eligible for vote");
+Console.ReadLine();
+            }
+        }
+    }
+}
+
